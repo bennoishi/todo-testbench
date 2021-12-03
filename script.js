@@ -7,7 +7,7 @@ function generateTodos() {
     if (this.readyState == 4 && this.status == 200) {
         todos = JSON.parse(this.responseText);
         console.log(todos); 
-        console.log(todos[i].created);
+        console.log(todos[0].created);
         displayTodos();
     } 
     };
