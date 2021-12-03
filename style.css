@@ -1,1 +1,11 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(185, 239, 255);
+    margin: auto;
+    text-align: center;
+}
 
+.todo-list {
+    padding-top: 20px;
+    padding-bottom: 2%;
+}
